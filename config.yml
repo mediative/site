@@ -1,0 +1,10 @@
+baseurl: "https://ypg-data.github.io/"
+languageCode: "en-us"
+title: "YPG Data"
+metaDataFormat: "yaml"
+theme: "casper"
+
+params:
+  cover: "images/ypg-data.jpg"
+  customHeaderPartial: "customHeaderPartial.html"
+  githubName: ypg-data

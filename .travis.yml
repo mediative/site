@@ -1,0 +1,23 @@
+# Use container-based infrastructure
+sudo: false
+
+language: go
+go: "1.5.1"
+
+before_install:
+  - make setup
+
+script:
+  - make site
+
+deploy:
+  provider: script
+  script: tools/deploy-site.sh
+  skip_cleanup: true
+  on:
+    branch: master
+    condition: $TRAVIS_PULL_REQUEST = false
+
+env:
+  global:
+    secure: "bx9bvqVlNYLANwqDTwm+lCXfQvxNGYn2D2V9LEXwWEUixg3mm+6Hatn71oogDapTAwQ02QMsZY4HeCuuYYQ+IZk+hnRLhO4y2XdLtzM/ft0Me0sozZdc/MkrWeZhgXTd7n1dZQd553YvzNc2BC5LlcAGmDKaR0u3c4XVKOuDGYrJIQzfcn7gIIaRaY/H/LUHMZ55ZG9V92bAMJZkue3LPtpyc8NTmwqoPJejLD5O+7wB0eOLAB6A0CP4rD9xGJZOKgWCVd7722M92HnAW3MP8HrguMWUL34Td8rpbWFZoFFxFCb72YNqsgbQu3AWMLu6oRdtyex8H+ZZN2IO6Uex4dz/aYuzLnb3qBRhNYBYbOKhM57+zhFVJ34Z6j0JJ/UBPhLWoHhbiZfL51Nf7xBKJVLXOfNIXkMo+2yIGyMx4BPU5GbhH/UBhsQ5J6WOfarb8YXoKi7zZSIQtUH/EfkvFk1V+/XBr82dOktwJVHSH/WGzq8hO3kA+YewhvlZtoKqsWwT6a7BrOssz3gUXtT2VmUy4Rv7LfVgC55qZZI97g4n5PowgA5oGysLpbbwSCX5C3EGl2CP2v3F50sLJO6zCQ/Zru0+xAmK8NhPLv/6Nt3V/InRdlvr5SxVpo+kyxk2If5zwb6BumA+hGPLo6x8aZR7XextcithFo6MhklGDG0="
