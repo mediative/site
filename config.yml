@@ -8,3 +8,10 @@ params:
   cover: "images/ypg-data.jpg"
   customHeaderPartial: "customHeaderPartial.html"
   githubName: ypg-data
+
+menu:
+  main:
+    - name: "Home"
+      weight: -120
+      identifier: "home"
+      url: "/"

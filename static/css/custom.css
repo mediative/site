@@ -1,3 +1,7 @@
-.main-header .vertical .main-header-content {
+.main-header.home .vertical .main-header-content {
+  display: none;
+}
+
+.nav li:before, .nav li a:after {
   display: none;
 }
