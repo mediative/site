@@ -50,7 +50,7 @@ CDH](https://www.linkedin.com/pulse/running-spark-151-cdh-deenar-toraskar-cfa).
 
         $ scp spark-x.x.x-bin-cdh5.4.8.tgz user@edge-node:
 
- 5. Connect to the edge node and `sudo` as the ETL user
+ 5. Connect to the edge node
 
  6. Extract the `tgz` file
 

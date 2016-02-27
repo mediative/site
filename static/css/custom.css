@@ -5,3 +5,10 @@
 .nav li:before, .nav li a:after {
   display: none;
 }
+
+.content .post-content h2 { font-size: 2.8rem }
+.content .post-content h3 { font-size: 2.6rem }
+
+.post-header .post-meta {
+  margin: 0 0 1rem 0;
+}
