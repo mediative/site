@@ -7,7 +7,7 @@ Setting up the local site:
  - Install the `hugo` site generator: `brew install hugo`
  - Update theme git submodule: `make setup`
 
-## Add you author information
+## Adding author information
 
  - Copy existing config file: `cp data/authors/{fonseca,$USER}.yml`
  - Change the fields to match your profile:
@@ -19,6 +19,8 @@ location: Montreal, Canada
 website: https://github.com/john-doe
 thumbnail: "images/authors/john-doe.jpg"
 ```
+
+ - Add a thumbnail picture to `images/authors/`.
 
 ## Adding content
 
