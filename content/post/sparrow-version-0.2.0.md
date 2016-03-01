@@ -3,7 +3,7 @@ author: "fonseca"
 comments: true
 date: 2016-02-29T21:44:36-05:00
 draft: false
-image: ""
+image: "images/sparrow.jpg"
 menu: ""
 share: true
 tags:
