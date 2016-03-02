@@ -4,6 +4,9 @@ title: "YPG Data"
 metaDataFormat: "yaml"
 theme: "casper"
 
+permalinks:
+  post: /post/:year/:month/:title/
+
 params:
   cover: "images/ypg-data.jpg"
   customHeaderPartial: "customHeaderPartial.html"

@@ -6,7 +6,6 @@ draft: false
 image: ""
 menu: ""
 share: true
-slug: post-title
 tags:
 - spark
 - pipeline
