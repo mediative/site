@@ -11,6 +11,7 @@ params:
   cover: "images/ypg-data.jpg"
   customHeaderPartial: "customHeaderPartial.html"
   githubName: ypg-data
+  googleAnalyticsUserID: "UA-80920872-1"
 
 menu:
   main:
