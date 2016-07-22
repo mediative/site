@@ -127,4 +127,5 @@ display(myModel.transform(test).select("prediction", "DJI"))
 ```
 {{< figure src="/images/simple-ml-pipeline/predNactual.png">}}
 
-The model obviously managed to learn correlations between the Dow jones and the Nasdaq.  Nothing to impress your broker, but that is a basis on which building better prediction.
+Sure enough, the model managed to learn correlations between the Dow jones and the Nasdaq.
+Nothing to impress your broker, but it is a basis on which one can build better predictions.
